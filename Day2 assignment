@@ -1,0 +1,3 @@
+inp_str="zerotohero"
+out={x:inp_str.count(x)for x in set(inp_str)}
+print("occurence of all characters in zero to hero is:/n"+str(out))
